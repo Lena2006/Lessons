@@ -31,5 +31,5 @@ public abstract class AbstractController implements Controller {
     public void start() {
         view.show();
 
-    }
+    
 }
