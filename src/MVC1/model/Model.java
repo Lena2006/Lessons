@@ -14,7 +14,6 @@ import java.util.Observable;
  * @author user
  */
 public class Model extends Observable {
-
     private List<String> data;
 
     public Model() {

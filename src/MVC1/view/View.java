@@ -3,26 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MVC1.controller;
+package MVC1.view;
 
+import MVC1.controller.Controller;
 import MVC1.model.Model;
-import javax.swing.text.View;
-
 
 /**
  *
- * @author user
+ * @author Елена
  */
-public interface Controller {
+public interface View {
 
-    void addAction(String text);
+    void dispose();
 
-    void removeAction(String text);
+    void setController(Controller controller);
 
     void setModel(Model model);
 
-    void setView(View view);
-
-    void start();
-
+    void show();
 }

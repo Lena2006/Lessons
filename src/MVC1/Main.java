@@ -10,9 +10,10 @@ import MVC1.controller.DefaultController;
 import MVC1.controller.DoNothingConroller;
 import MVC1.model.Model;
 import MVC1.view.SwingView;
+import MVC1.view.View;
 import java.util.Objects;
-import javax.swing.text.View;
-import static org.omg.CORBA.ORB.init;
+
+
 
 /**
  *
